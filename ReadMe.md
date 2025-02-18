@@ -8,9 +8,9 @@ This open-source, multiplatform project has been developed from the ground up to
 
 # Download and install
 Pre-built binaries of the latest commit (snapshot) are currently available for the following operating systems:
-- **Windows**: Download a ZIP-archive, either [Windows x64 (64-bit)](https://github.com/Doom2D/nixandroid/releases/latest/download/doom2df-mingw64.zip) or [**Windows x86 (32-bit)**](https://github.com/Doom2D/nixandroid/releases/latest/download/doom2df-mingw32.zip). Windows XP and newer is supported.
-- **Android**: Download the [**Android APK**](https://github.com/Doom2D/nixandroid/releases/latest/download/doom2df-android.apk). Android 4.0 and higher is supported.
-- **macOS**: Download the [**macOS ZIP archive**](https://github.com/Doom2D/nixandroid/releases/latest/download/doom2df-x86_64-apple-darwin.zip). Currently only x86-64 (Intel) binaries are provided. MacOS >= 11.0 is supported.
+- **Windows**: Download a ZIP-archive, either [Windows 64-bit (Windows 7+)](https://github.com/Doom2D/nix_actions/releases/latest/download/doom2df_win64.x86_64.zip) or [**Windows 32-bit (Windows XP+)**](https://github.com/Doom2D/nix_actions/releases/latest/download/doom2df_windows.x86.zip).
+- **Android**: Download the [**Android APK (Android 4.1+)**](https://github.com/Doom2D/nix_actions/releases/latest/download/Doom2D-Forever.apk).
+- **macOS**: Download the [**macOS app**](https://github.com/Doom2D/nix_actions/releases/latest/download/Doom2D-Forever.dmg). Currently only x86-64 (Intel) binaries are provided. MacOS >= 11.0 is supported.
 
 # Disclaimer
 This game is a fair-use parody, licensed _strictly_ under terms of the [**GNU General Public License v3.0**](https://github.com/Doom2D/Doom2D-Forever/blob/master/COPYING).
@@ -109,4 +109,3 @@ It's now possible to link Windows' LibJIT and ENet as static libs.
 |`-dLIBMINIUPNPC_WINDOZE_STATIC` |Static MiniUPnPC                           |
 |`-dVORBIS_WINDOZE_STATIC`       |Static libogg/libvorbis (only in AL builds)|
 |`-dOPUS_WINDOZE_STATIC`         |Static libogg/libopus (only in AL builds)  |
-
