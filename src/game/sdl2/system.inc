@@ -662,10 +662,8 @@ begin
   if SDL_Init(flags) <> 0 then
     raise Exception.Create('SDL2: Initialization failed: ' + SDL_GetError());
 
-{$IFDEF USE_SDLMIXER}
   if SDL_InitSubSystem(SDL_INIT_AUDIO) <> 0 then
     e_LogWritefln('SDL2: Failed to initialize audio subsystem: %s', [SDL_GetError()]);
-{$ENDIF}
 
 {$IFNDEF HEADLESS}
   SDL_SetHint(SDL_HINT_ACCELEROMETER_AS_JOYSTICK, '0');
